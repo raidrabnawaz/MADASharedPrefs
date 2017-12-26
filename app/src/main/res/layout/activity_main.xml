@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raidr.madasharedprefs.MainActivity"
+    android:padding="50dp">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Start Service"
+    android:textSize="25sp"
+    android:layout_above="@+id/edttime"
+    android:id="@+id/btnstart"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="Enter Time"
+        android:layout_centerInParent="true"
+        android:id="@+id/edttime"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        android:textSize="25sp"
+        android:layout_below="@+id/edttime"
+        android:id="@+id/btnstop"/>
+</RelativeLayout>
